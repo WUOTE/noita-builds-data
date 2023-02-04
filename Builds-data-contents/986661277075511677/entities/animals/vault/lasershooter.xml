@@ -1,0 +1,9 @@
+<Entity >
+  <Base file="data/entities/animals/lasershooter.xml">
+    <DamageModelComponent 
+      hp="16"
+      max_hp="16"
+	  minimum_knockback_force="100000"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

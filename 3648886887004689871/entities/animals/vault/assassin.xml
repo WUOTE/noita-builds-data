@@ -1,8 +1,0 @@
-<Entity >
-  <Base file="data/entities/animals/assassin.xml">
-    <DamageModelComponent 
-      hp="32"
-      max_hp="32"
-     ></DamageModelComponent >
-  </Base>
-</Entity>

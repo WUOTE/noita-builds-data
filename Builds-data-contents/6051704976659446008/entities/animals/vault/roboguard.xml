@@ -1,0 +1,9 @@
+<Entity >
+  <Base file="data/entities/animals/roboguard.xml">
+    <DamageModelComponent 
+      hp="13"
+      max_hp="13"
+	  minimum_knockback_force="100000"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

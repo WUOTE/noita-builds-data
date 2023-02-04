@@ -1,0 +1,44 @@
+<PixelScenes>
+  <mBufferedPixelScenes>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/0.png" pos_x="1536" pos_y="12288" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/1.png" pos_x="1536" pos_y="12800" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/2.png" pos_x="1536" pos_y="13312" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/3.png" pos_x="1536" pos_y="13824" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/4.png" pos_x="2048" pos_y="12288" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/5.png" pos_x="2048" pos_y="12800" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/6.png" pos_x="2048" pos_y="13312" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/7.png" pos_x="2048" pos_y="13824" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/8.png" pos_x="2560" pos_y="12288" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/9.png" pos_x="2560" pos_y="12800" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/10.png" pos_x="2560" pos_y="13312" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/11.png" pos_x="2560" pos_y="13824" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/12.png" pos_x="3072" pos_y="12288" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/13.png" pos_x="3072" pos_y="12800" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/14.png" pos_x="3072" pos_y="13312" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/15.png" pos_x="3072" pos_y="13824" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/16.png" pos_x="3584" pos_y="12288" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/17.png" pos_x="3584" pos_y="12800" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/18.png" pos_x="3584" pos_y="13312" skip_biome_checks="1" >
+    </PixelScene>
+    <PixelScene DEBUG_RELOAD_ME="1" background_filename="" clean_area_before="1" colors_filename="" material_filename="data/biome_impl/spliced/boss_arena/19.png" pos_x="3584" pos_y="13824" skip_biome_checks="1" >
+    </PixelScene>
+  </mBufferedPixelScenes>
+</PixelScenes>

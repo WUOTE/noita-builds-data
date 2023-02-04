@@ -1,8 +1,0 @@
-<Entity>
-  
-  <LightComponent 
-    _enabled="1"
-	radius="128" >
-  </LightComponent>
-  
-</Entity>

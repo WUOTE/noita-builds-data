@@ -1,8 +1,0 @@
-<Entity>
-    
-    <HitEffectComponent 
-        effect_hit="LOAD_ENTITY"
-        value_string="data/entities/misc/fireball_ray_enemy.xml" >
-	</HitEffectComponent >
-
-</Entity>

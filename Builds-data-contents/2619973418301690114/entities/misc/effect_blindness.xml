@@ -1,0 +1,16 @@
+<Entity>
+    <InheritTransformComponent>
+    </InheritTransformComponent>    
+    
+    <GameEffectComponent 
+        effect="BLINDNESS"
+        frames="1800"
+    >
+	</GameEffectComponent>
+
+	<AudioComponent
+		file="data/audio/Desktop/misc.snd"
+		event_root="game_effect/blindness" >
+	</AudioComponent>
+
+</Entity>

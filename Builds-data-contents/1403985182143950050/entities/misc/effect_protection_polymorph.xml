@@ -1,0 +1,12 @@
+<Entity>
+	
+	<InheritTransformComponent>
+    </InheritTransformComponent>	
+    
+    <GameEffectComponent 
+        effect="PROTECTION_POLYMORPH"
+        frames="7200"
+    >
+	</GameEffectComponent >
+
+</Entity>

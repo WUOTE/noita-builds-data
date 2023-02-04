@@ -1,0 +1,34 @@
+<Entity tags="tablet">
+	<!-- spawned at the start of spell lab game mode -->
+
+	<Base file="data/entities/items/books/base_book.xml">
+		<PhysicsImageShapeComponent 
+			image_file="data/items_gfx/laboratory_tablet.png"
+			>
+		</PhysicsImageShapeComponent>
+		
+		<UIInfoComponent
+			name="$booktitle_corpse"
+			>
+		</UIInfoComponent>
+		
+		<ItemComponent
+			item_name="$booktitle_allspells"
+			ui_description="$bookdesc_allspells"
+			is_all_spells_book="1"
+			ui_sprite="data/ui_gfx/items/laboratory_tablet.png"
+			>
+		</ItemComponent>
+		
+		<AbilityComponent
+			ui_name="$booktitle_allspells"
+			>
+		</AbilityComponent>
+		
+		<ParticleEmitterComponent 
+		emitted_material_name="spark_white"
+		>
+		</ParticleEmitterComponent>
+	</Base>
+
+</Entity>

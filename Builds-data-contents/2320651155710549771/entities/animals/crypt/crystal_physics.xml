@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/crystal_physics.xml">
+    <DamageModelComponent 
+      hp="48"
+      max_hp="48"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

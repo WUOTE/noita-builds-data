@@ -1,0 +1,9 @@
+<Entity  >
+  
+	<Base file="data/entities/buildings/arrowtrap_left.xml" >
+		<SpriteComponent 
+			image_file="data/buildings_gfx/arrowtrap_right.xml" >
+		</SpriteComponent>
+	</Base>
+
+</Entity>

@@ -1,0 +1,14 @@
+<Entity tags="teleportable_NOT">
+	
+	<VelocityComponent
+		mass="0.05" >
+	</VelocityComponent>
+
+	<AudioComponent
+		file="data/audio/Desktop/projectiles.snd"
+		audio_physics_material="projectile"
+		event_root="projectiles/hit" >
+	</AudioComponent>
+
+</Entity>
+

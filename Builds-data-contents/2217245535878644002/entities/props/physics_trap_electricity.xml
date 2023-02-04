@@ -1,0 +1,39 @@
+<Entity tags="mortal" >
+
+  <!-- mortal is required so it can explode -->
+
+  <Base file="data/entities/base_item_physics.xml" >
+    <PhysicsImageShapeComponent
+      centered="1" 
+      image_file="data/props_gfx/trap_electricity.png"
+      material="steel" >
+    </PhysicsImageShapeComponent>
+  </Base>
+
+  <ElectricityReceiverComponent
+    radius="6"
+    active_time_frames="100"
+    >
+  </ElectricityReceiverComponent>
+  
+  <VariableStorageComponent
+    name="enable_component"
+    value_string="electricity_effect"
+  />
+  
+  <LuaComponent
+    script_electricity_receiver_switched="data/scripts/props/physics_trap.lua"
+    >
+  </LuaComponent>
+  
+  <LuaComponent
+	_tags="electricity_effect"
+	_enabled="0"
+    script_source_file="data/scripts/props/physics_trap_electricity_pulse.lua"
+	execute_every_n_frame="32"
+    >
+  </LuaComponent>
+
+  <!-- physics_body_destruction_required (0.0-1.0, 0 = intact, 1 = destroyed)  
+       physics_body_modified_death_probability (if more destroyed than physics_body_destruction_required, explode with this probability (0.9 = 90% chance))-->
+</Entity>

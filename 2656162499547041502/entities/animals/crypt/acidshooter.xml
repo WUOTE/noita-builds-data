@@ -1,8 +1,0 @@
-<Entity >
-  <Base file="data/entities/animals/acidshooter.xml">
-    <DamageModelComponent 
-      hp="6"
-      max_hp="6"
-     ></DamageModelComponent >
-  </Base>
-</Entity>

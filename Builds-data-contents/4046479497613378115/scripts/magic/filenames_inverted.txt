@@ -1,0 +1,39 @@
+remove_fog
+remove_red_moon
+end_endless_night
+?? rain_acid
+drought
+?? rain_blood
+?? deathray
+?? earthquake
+?? locusts
+best_weather_ever
+?? tsunami
+?? rain_snow
+?? rain_radioactive_liquid
+?? rain_oil
+?? rain_duck
+?? rain_sheep
+?? tornado
+release_ghosts
+create_a_mess
+end_volcanic_eruption
+blood_to_water
+ice_to_water
+gold_to_concrete
+animals_to_gold
+?? fireworks
+?? random_teleports
+?? explode_animals
+acid_to_blood
+soberness
+get_rid_of_mutant
+worms_fly_to_the_sky
+concrete_to_cement
+restore_gravity
+restore_sounds
+?? explosion_at_player
+?? ball_lightning
+?? rain_unstable_gunpowder
+?? ragdoll_decay
+?? ragdolls_to_poison

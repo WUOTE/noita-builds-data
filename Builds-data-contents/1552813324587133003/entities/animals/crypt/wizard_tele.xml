@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/wizard_tele.xml">
+    <DamageModelComponent 
+      hp="24"
+      max_hp="24"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

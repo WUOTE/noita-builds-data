@@ -1,0 +1,34 @@
+dofile( "data/scripts/lib/utilities.lua" )
+
+function damage_received( damage, desc, entity_who_caused, is_fatal )
+	local entity_id    = GetUpdatedEntityID()
+	local x, y = EntityGetTransform( entity_id )
+
+	if( entity_who_caused == entity_id ) then return end
+
+	-- check that we're only shooting every 10 frames
+	if script_wait_frames( entity_id, 2 ) then  return  end
+	
+	local angle_inc = 0
+	local length = 400
+	
+	if ( entity_who_caused ~= nil ) and ( entity_who_caused ~= NULL_ENTITY ) then
+		local ex, ey = EntityGetTransform( entity_who_caused )
+
+		angle_inc = 0 - math.atan2( ( ey - y ), ( ex - x ) )
+	end
+	
+	for i=1,2 do
+		local angle = 0
+		if ( entity_who_caused ~= nil ) and ( entity_who_caused ~= NULL_ENTITY ) then
+			angle = angle_inc + Random( -5, 5 ) * 0.01
+		else
+			angle = math.rad( Random( 1, 360 ) )
+		end
+		
+		local vel_x = math.cos( angle ) * length
+		local vel_y = 0- math.sin( angle ) * length
+
+		shoot_projectile( entity_id, "data/entities/projectiles/wraith_glowing_laser.xml", x, y, vel_x, vel_y )
+	end
+end

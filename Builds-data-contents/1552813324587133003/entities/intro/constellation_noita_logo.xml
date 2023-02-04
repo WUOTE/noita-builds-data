@@ -1,0 +1,11 @@
+<Entity serialize="0">
+
+	<Base file="data/entities/intro/constellation_base.xml">
+	  	<ParticleEmitterComponent 
+			emitted_material_name="spark_red_bright"
+			emission_chance="15"
+			image_animation_file="data/entities/intro/noita_logo.png" >
+		</ParticleEmitterComponent>
+	</Base>
+
+</Entity>

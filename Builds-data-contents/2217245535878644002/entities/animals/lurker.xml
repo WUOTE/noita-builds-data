@@ -1,0 +1,93 @@
+<Entity name="$animal_lurker">
+  
+	<Base file="data/entities/base_enemy_flying.xml" >
+		<ItemChestComponent level="1" > </ItemChestComponent>
+
+		<AnimalAIComponent
+			attack_ranged_entity_file="data/entities/projectiles/gasblob.xml"
+			attack_ranged_enabled="1"
+			attack_dash_enabled="0"
+			attack_ranged_frames_between="35" 
+			attack_ranged_offset_y="-2"
+			attack_ranged_min_distance="0"
+			attack_ranged_max_distance="70"
+			needs_food="0"
+			can_fly="1">
+		</AnimalAIComponent>
+
+		<DamageModelComponent
+            hp="0.75"
+            ragdoll_filenames_file=""
+			ragdoll_fx_forced="DISINTEGRATED"
+			ragdoll_material="meat_slime_green"
+			blood_material="radioactive_liquid"
+			blood_spray_material="radioactive_liquid"
+			blood_sprite_directional="data/particles/bloodsplatters/bloodsplatter_directional_green_$[1-3].xml"
+			blood_sprite_large="data/particles/bloodsplatters/bloodsplatter_green_$[1-3].xml"
+			materials_that_damage="lava,poison,blood_cold,blood_cold_vapour" 
+			materials_how_much_damage="0.004,0.001,0.0008,0.0007"
+			>
+			<damage_multipliers
+				radioactive="0.0" >
+			</damage_multipliers>
+		</DamageModelComponent>
+
+		<PathFindingComponent
+			can_fly="1" 
+			can_walk="0"
+			>
+		</PathFindingComponent>
+
+		<SpriteComponent 
+			image_file="data/enemies_gfx/lurker.xml" 
+			offset_x="0"
+			offset_y="0"
+			alpha="1"
+			additive="1"
+			>
+		</SpriteComponent>   
+		
+		<GenomeDataComponent 
+			herd_id="slimes" >
+		</GenomeDataComponent>
+
+		<HitboxComponent 
+			_enabled="1" 
+			aabb_min_x="-6.0" 
+			aabb_max_x="6.0" 
+			aabb_min_y="-8" 
+			aabb_max_y="6" 
+			is_enemy="1" 
+			is_item="0" 
+			is_player="0" >
+		</HitboxComponent>
+
+		<CharacterDataComponent 
+			_enabled="1" 
+			climb_over_y="4" 
+			collision_aabb_min_x="-6.0" 
+			collision_aabb_max_x="6.0" 
+			collision_aabb_min_y="-8" 
+			collision_aabb_max_y="6" 
+			mass="0.9"
+			>
+	    </CharacterDataComponent>
+
+	</Base>
+
+	<AudioComponent
+		file="data/audio/Desktop/animals.snd"
+		event_root="animals_voc/slimeshooter" >
+	</AudioComponent>
+
+	<LightComponent 
+	    _enabled="1" 
+	    radius="30" 
+		r="99"
+		g="205"
+		b="139"
+		offset_y="-9"
+		>
+    </LightComponent>
+</Entity>
+

@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/drone_physics.xml">
+    <DamageModelComponent 
+      hp="1.6"
+      max_hp="1.6"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

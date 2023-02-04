@@ -1,0 +1,15 @@
+<Entity>
+	<Base file="data/entities/buildings/teleport.xml">
+		<UIInfoComponent
+			name="Portal deeper"
+			>
+		</UIInfoComponent>
+		
+		<TeleportComponent
+			target_x_is_absolute_position="1"
+			target.x="1911" 
+			target.y="250" 
+		></TeleportComponent>
+	</Base>
+
+</Entity>

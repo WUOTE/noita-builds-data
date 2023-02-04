@@ -1,0 +1,6 @@
+<PixelScenes>
+  <mBufferedPixelScenes>
+    <PixelScene background_filename="" colors_filename="data/biome_impl/spliced/moon/0_visual.png" material_filename="data/biome_impl/spliced/moon/0.png" pos_x="0" pos_y="-26112" skip_biome_checks="1" >
+    </PixelScene>
+  </mBufferedPixelScenes>
+</PixelScenes>

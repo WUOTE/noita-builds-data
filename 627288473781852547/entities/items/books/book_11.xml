@@ -1,0 +1,19 @@
+<Entity tags="tablet">
+	<Base file="data/entities/items/books/base_book.xml">
+		<UIInfoComponent
+			name="$booktitle11"
+			>
+		</UIInfoComponent>
+		
+		<ItemComponent
+			item_name="$booktitle11"
+			ui_description="$bookdesc11"
+			>
+		</ItemComponent>
+		
+		<AbilityComponent
+			ui_name="$booktitle11"
+			>
+		</AbilityComponent>
+	</Base>
+</Entity>

@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/sniper.xml">
+    <DamageModelComponent 
+      hp="7.2"
+      max_hp="7.2"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

@@ -1,0 +1,22 @@
+<Entity name="$animal_turret">
+	
+	<_Transform 
+		scale.x="-1" >
+	</_Transform>
+  
+	<Base file="data/entities/animals/turret_right.xml" >
+
+		<SpriteComponent 
+			special_scale_x="-1"
+			has_special_scale="1" >
+		</SpriteComponent>
+
+		 <SpriteComponent 
+			special_scale_x="-1"
+			has_special_scale="1" >
+		</SpriteComponent>
+
+	</Base>
+
+</Entity>
+

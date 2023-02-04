@@ -1,0 +1,96 @@
+ 
+SOUND DESIGN, MUSIC LEAD AND MIXING
+Niilo Takalainen
+ 
+MUSIC COMPOSED AND PERFORMED BY 
+From Grotto - Antti Pasonen, Joonas Turner, Pekka Takalainen, Riku Hyötyläinen
+ 
+MUSIC RECORDING, MIXING AND MASTERING
+Petri Majuri at E-studio
+ 
+INITIAL LOCALIZATION
+MoGi Group - A TransPerfect Company
+ 
+TESTING & ADDITIONAL WORK
+Anna Zajączkowska
+ 
+TESTING
+@Hideous_
+Airdorf
+Anna Kipnis
+Antti Tiihonen
+Ari Kuokka
+Bennett Foddy
+Brandon McCartin aka B-McC
+Brian 'SirNiko' Fisher
+Claudio Lins
+Colin Northway
+Daniel Benmergui
+Dennis Belfrage
+Ebbe Lønborg
+GreenZSaber
+Jere Sanisalo
+Jim Stormdancer
+Jussi-Pekka Neilikka
+Justin Ma
+Kalle Hämäläinen
+Marc ten Bosch
+Martin Jonasson
+Matti Hämäläinen
+Miika Pihkala
+Mikko Heino
+Mokesmoe
+ncrecc 
+Olli Raila
+Oskari Porkka
+Otto Hantula
+Otto Raila
+Pyry Kontio
+Robin Baumgarten
+Sarah Northway
+Simon Sklett
+Timo Ijäs
+Timo Vihola
+Tommi Pystynen
+Tore 'pr0te' Lehmann
+Tyler Coleman
+ 
+THANK YOU
+Annakaisa Kultima
+Daniel 'Data' Tabar
+Derek Yu
+Eduardo Ortiz Frau
+Evan Greenwood
+FRACTiLE Games
+Greg Rice
+Jan Willem Nijman
+John Polson
+Jouko Lavonen
+Jukio Kallio
+Jyri Riikonen
+Kimmo Vihola
+Kitty Calis
+Martin Kvale
+Martin Pichlmair
+Matt Nickerson
+Michał Marcinkowski
+People of Indie Beer
+Sami Lahtinen
+Simo Pitkänen
+Suomen Kulttuurirahasto
+Tapani Värjölä
+Utu Lautturi
+ 
+#AND_YOU#
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Noita is powdered by the Falling Everything Engine
+Noita uses FMOD Studio by Firelight Technologies Pty Ltd
+Please see licenses/Attributions.txt for Creative Commons attribution list.
+ 
+© Nolla Games Oy 2019

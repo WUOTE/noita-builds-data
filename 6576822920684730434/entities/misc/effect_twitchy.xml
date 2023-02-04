@@ -1,0 +1,26 @@
+<Entity>
+	<InheritTransformComponent 
+		_enabled="1" >
+    </InheritTransformComponent>	
+    
+    <LuaComponent
+		script_source_file="data/scripts/status_effects/twitchy.lua"
+		execute_every_n_frame="60"
+		>
+	</LuaComponent>
+	
+	<LifetimeComponent
+		lifetime="1800"
+		>
+	</LifetimeComponent>
+	
+	<UIIconComponent
+		name="$status_twitchy"
+		description="$statusdesc_twitchy"
+		icon_sprite_file="data/ui_gfx/status_indicators/twitchy.png"
+		is_perk="0"
+		display_above_head="0"
+		display_in_hud="1"
+		>
+	</UIIconComponent>
+</Entity>

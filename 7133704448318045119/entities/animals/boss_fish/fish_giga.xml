@@ -1,0 +1,149 @@
+<Entity name="$animal_fish_giga">
+	<!-- cart -->
+	<VelocityComponent
+		gravity_y="0"
+		air_friction="0"
+		terminal_velocity="300" >
+	</VelocityComponent>
+
+	<ProjectileComponent
+		speed_min="0"
+		speed_max="0"
+		bounce_always="1"
+		bounces_left="9999999999999"
+		bounce_at_any_angle="1"
+		bounce_energy="0.5"
+		velocity_sets_rotation="0"
+		penetrate_entities="1"
+		collide_with_world="0"
+		>
+	</ProjectileComponent>
+	
+	<Entity>
+		<VariableStorageComponent
+			name="phase_timer"
+			value_int="0"
+			>
+		</VariableStorageComponent>
+		
+		<InheritTransformComponent>
+			<Transform position.x="0" position.y="48" ></Transform>
+		</InheritTransformComponent>
+		
+		<SpriteComponent
+			image_file="data/entities/animals/boss_fish/eye.xml"
+			has_special_scale="1"
+			special_scale_x="1"
+			offset_x="0"
+			offset_y="0"
+			z_index="0.9"
+			rect_animation="closed"
+			>
+		</SpriteComponent>
+		
+		<LuaComponent
+			script_source_file="data/entities/animals/boss_fish/eye.lua"
+			execute_every_n_frame="1"
+			>
+		</LuaComponent>
+	</Entity>
+	
+	<SpriteComponent
+		image_file="data/entities/animals/boss_fish/body.png"
+		has_special_scale="1"
+		special_scale_x="1"
+		offset_x="128"
+		offset_y="192"
+		>
+	</SpriteComponent>
+
+	<Entity>
+		<InheritTransformComponent>
+			<Transform position.x="-96" position.y="64" ></Transform>
+		</InheritTransformComponent>
+		
+		<SpriteComponent
+			image_file="data/entities/animals/boss_fish/tentacle_1.png"
+			has_special_scale="1"
+			special_scale_x="1"
+			offset_x="67"
+			offset_y="19"
+			>
+		</SpriteComponent>
+		
+		<LuaComponent
+			script_source_file="data/entities/animals/boss_fish/tentacle_1.lua"
+			execute_every_n_frame="1"
+			>
+		</LuaComponent>
+	</Entity>
+	
+	<Entity>
+		<InheritTransformComponent>
+			<Transform position.x="-72" position.y="72" ></Transform>
+		</InheritTransformComponent>
+		
+		<SpriteComponent
+			image_file="data/entities/animals/boss_fish/tentacle_2.png"
+			has_special_scale="1"
+			special_scale_x="1"
+			offset_x="37"
+			offset_y="17"
+			>
+		</SpriteComponent>
+		
+		<LuaComponent
+			script_source_file="data/entities/animals/boss_fish/tentacle_2.lua"
+			execute_every_n_frame="1"
+			>
+		</LuaComponent>
+	</Entity>
+	
+	<Entity>
+		<InheritTransformComponent>
+			<Transform position.x="72" position.y="72" ></Transform>
+		</InheritTransformComponent>
+		
+		<SpriteComponent
+			image_file="data/entities/animals/boss_fish/tentacle_3.png"
+			has_special_scale="1"
+			special_scale_x="1"
+			offset_x="37"
+			offset_y="17"
+			>
+		</SpriteComponent>
+		
+		<LuaComponent
+			script_source_file="data/entities/animals/boss_fish/tentacle_3.lua"
+			execute_every_n_frame="1"
+			>
+		</LuaComponent>
+	</Entity>
+	
+	<Entity>
+		<InheritTransformComponent>
+			<Transform position.x="96" position.y="64" ></Transform>
+		</InheritTransformComponent>
+		
+		<SpriteComponent
+			image_file="data/entities/animals/boss_fish/tentacle_4.png"
+			has_special_scale="1"
+			special_scale_x="1"
+			offset_x="28"
+			offset_y="19"
+			>
+		</SpriteComponent>
+		
+		<LuaComponent
+			script_source_file="data/entities/animals/boss_fish/tentacle_4.lua"
+			execute_every_n_frame="1"
+			>
+		</LuaComponent>
+	</Entity>
+
+	<LuaComponent
+		script_source_file="data/entities/animals/boss_fish/movement.lua"
+		execute_every_n_frame="1"
+		>
+	</LuaComponent>
+</Entity>

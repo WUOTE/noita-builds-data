@@ -1,0 +1,16 @@
+<Entity   >
+
+	<VelocityComponent />
+
+    <SimplePhysicsComponent/>
+
+	<SpriteComponent 
+		image_file="data/temp/ritualist_b.xml" 
+		offset_x="0"
+		offset_y="0" 
+		has_special_scale="1"
+		special_scale_x="-1"
+		special_scale_y="1"
+		>
+	</SpriteComponent>
+</Entity>

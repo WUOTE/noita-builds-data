@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/necromancer.xml">
+    <DamageModelComponent 
+      hp="30"
+      max_hp="30"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

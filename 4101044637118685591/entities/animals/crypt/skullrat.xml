@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/skullrat.xml">
+    <DamageModelComponent 
+      hp="19.2"
+      max_hp="19.2"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

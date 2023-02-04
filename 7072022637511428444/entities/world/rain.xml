@@ -1,0 +1,9 @@
+<Entity serialize="0" >
+
+	<RainEmitterComponent
+		lifetime="3600"
+		density="1.0">
+	</RainEmitterComponent>
+
+</Entity>
+

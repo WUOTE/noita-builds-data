@@ -1,0 +1,8 @@
+<Entity >
+  <Base file="data/entities/animals/scavenger_clusterbomb.xml">
+    <DamageModelComponent 
+      hp="12"
+      max_hp="12"
+     ></DamageModelComponent >
+  </Base>
+</Entity>

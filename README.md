@@ -1,4 +1,4 @@
-# NOITA BUILDS DATA CONTENTS
+# NOITA BUILDS' DATA CONTENTS
 Repository containing every publically available Noita build's `data.wak` contents
 
 `data.wak` files were unpacked using [noita-payer's excellent wakman.exe app](https://github.com/noita-player/noitadocs/releases/latest).

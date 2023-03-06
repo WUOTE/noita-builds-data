@@ -3,9 +3,19 @@ Repository containing every publically available Noita build's `data.wak` conten
 
 `data.wak` files were unpacked using [noita-payer's excellent wakman.exe app](https://github.com/noita-player/noitadocs/releases/latest).
 
-Reference: 
+Reference (I use [Steam DB to get manifests](https://steamdb.info/depot/881101/manifests/)): 
 | Release Date                     |          ManifestID |   Branch/Tag   |
 | :------------------------------- | :------------------ |  ------------: |
+| 6 March 2023 – 17:38:53 UTC | 8185016366725795064 | noitabeta |
+| 5 March 2023 – 11:03:22 UTC | 4332755115058402452 | noitabeta |
+| 3 March 2023 – 17:56:11 UTC | 3889233971134129956 | noitabeta |
+| 2 March 2023 – 16:15:43 UTC | 7217526811304054195 | noitabeta |
+| 1 March 2023 – 14:45:21 UTC | 5494639879028694064 | noitabeta |
+| 28 February 2023 – 15:19:02 UTC | 6794393583745165429 | |
+| 28 February 2023 – 14:12:02 UTC | 8218037640079617990 | noitabeta |
+| 28 February 2023 – 10:36:30 UTC | 5844277561650969360 | noitabeta |
+| 27 February 2023 – 13:53:14 UTC | 4845123095886604426 | noitabeta |
+| 23 April 2021 – 17:11:48 UTC | 654912509375559664 | |
 | 23 April 2021 – 14:28:19 UTC     |  [226707737181927261](https://github.com/WUOTE/noita-builds-data/tree/main/Builds-data-contents/226707737181927261) |   noitabeta    |
 | 22 April 2021 – 20:41:45 UTC     | [5216866469007282729](https://github.com/WUOTE/noita-builds-data/tree/main/Builds-data-contents/5216866469007282729) |                |
 | 22 April 2021 – 15:08:05 UTC     | [7133704448318045119](https://github.com/WUOTE/noita-builds-data/tree/main/Builds-data-contents/7133704448318045119) |   noitabeta    |
